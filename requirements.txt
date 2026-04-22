@@ -1,0 +1,13 @@
+# Driver Drowsiness Detection — BiGRU + MHA + Focal Loss
+# pip install -r requirements.txt
+
+streamlit>=1.28.0
+mediapipe==0.10.13
+opencv-python
+torch
+torchvision
+pandas
+numpy
+matplotlib
+scikit-learn
+tqdm
