@@ -266,8 +266,6 @@ Driver_Drowsiness/
 streamlit run app.py
 ```
 
-Open **http://localhost:8501** in your browser.
-
 **How to use:**
 1. Click **▶ Start** and allow webcam access when prompted
 2. Sit normally — the app calibrates to your face for ~15 seconds (baseline collection)
@@ -360,7 +358,7 @@ Model progression across all experiments on UTA-RLDD (LOSO Macro F1-score):
 |:-------:|-------------|--------------|:-------------:|
 | v3 | BiGRU | Cross-Entropy | 0.6799 |
 | v4 | BiGRU + Multi-Head Attention | Cross-Entropy | 0.6799 |
-| **v5** | **BiGRU + Multi-Head Attention** | **Focal Loss (γ=2.0)** | **see metrics JSON** |
+| **v5** | **BiGRU + Multi-Head Attention** | **Focal Loss (γ=2.0)** | 0.6947 |
 
 The key improvement in v5 is on the **Low-vigilant** class — the most safety-critical state and the hardest to detect due to its subtle, transitional visual cues. Focal Loss specifically targets this by penalising misclassifications of hard examples more heavily.
 
