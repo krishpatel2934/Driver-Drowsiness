@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)](https://streamlit.io/)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10.13-green)](https://mediapipe.dev/)
 
-A real-time drowsiness detection system that classifies driver vigilance into three levels — **Alert**, **Low-vigilant**, and **Drowsy** — directly from a live webcam feed. Built with a BiGRU + Multi-Head Attention architecture trained with Focal Loss to handle class imbalance, deployed as an interactive Streamlit dashboard.
+A real-time drowsiness detection system that classifies driver vigilance into three levels — **Alert**, **Low-vigilant**, and **Drowsy** — directly from a live webcam feed. Built with a BiGRU + Multi-Head Attention architecture trained with Focal Loss to handle class imbalance, deployed as an interactive Streamlit dashboard. 
 
 ---
 
